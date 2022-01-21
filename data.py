@@ -58,4 +58,4 @@ def load_data():
         return data.dropna()
 
 
-mapping_sample = load_data().sample(10000)
+mapping_sample = load_data().sample(5000)
