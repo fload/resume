@@ -76,7 +76,7 @@ class Jesse:
 - Centennial High School – 2003''')
 
         with st.expander("Map"):
-            "A sample of my personal google gps data"
+            st.write("A sample of my personal google gps data")
             st.write(self.map)
 
 me = Jesse()
